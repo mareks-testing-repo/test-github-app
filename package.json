@@ -1,0 +1,29 @@
+{
+  "name": "test-github-app",
+  "version": "1.0.0",
+  "description": "just playing around with github apps",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mareks-testing-repo/test-github-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mareks-testing-repo/test-github-app/issues"
+  },
+  "homepage": "https://github.com/mareks-testing-repo/test-github-app#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "octokit": "^4.0.2"
+  },
+  "devDependencies": {
+    "smee-client": "^2.0.1"
+  }
+}
